@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<nav id="navbar">
+    <div class="nav-brand">
+        <img src="images/Fashion store Logo Design.png" alt="Fashion Store Logo">
+    </div>
+    <ul class="nav-links" >
+        <li><a href="DressMe.HTML">Home</a></li>
+        <li><a href="Men.html">Men</a></li>
+        <li><a href="Women.html">Women</a></li>
+        <li><a href="Cart.html">Cart</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+    </ul>
+</nav>
+
+<body>
+    <div class="cart-container">
+        <h2>Your Cart</h2>
+        <div class="cart-item">
+            <div class="cart-item-details">
+                <h4>Item Name</h4>
+                <p>Item Description...</p>
+            </div>
+            <span class="item-price">$20.00</span>
+            <div class="item-quantity">
+                <input type="number" value="1" min="1">
+            </div>
+            <span class="item-total">$20.00</span>
+            <span class="item-remove">X</span>
+        </div>
+        <!-- Repeat for each item in the cart -->
+
+        <div class="cart-summary">
+            <strong>Total:</strong> <span>$20.00</span>
+        </div>
+        
+        <button type="button">Checkout</button>
+    </div>
+    <!-- JavaScript for cart functionality goes here -->
+</body>
+</html>
